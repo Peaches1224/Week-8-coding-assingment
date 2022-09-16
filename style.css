@@ -55,3 +55,29 @@ img{
     size: 50%;
 }
 
+table{
+    color: lightskyblue;
+    font-size: 80px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid, blue;
+}
+
+.hov{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+}
+
+.hov:hover{
+    background-color: blue;
+}
