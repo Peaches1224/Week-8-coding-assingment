@@ -1,10 +1,14 @@
 h1{
     color: white;
     text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
 }
 
 h2{
     color:white;
+    text-align: center;
+    scroll-margin-left: 12%;
 
 }
 
@@ -31,7 +35,7 @@ nav a:hover {
 main {
     margin-top: 2px;
     padding-top: 30px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100vw;
 }
 
@@ -41,35 +45,37 @@ background-image: url(images/6829115.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    margin: 0px;
-    padding: 0px;
+
 }
 
 footer {
     background-color: lightskyblue;
     width: 100%;
-    height: 50px;
+    height: 25px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    
+   
 }
 
 img{
-    align-items: center;
-    size: 50%;
+    
+  max-width: 50%;
+    display:  block;
+   margin: auto;
+margin-bottom: 35px;
     
 }
 
 table{
     color: white;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 table{
     border-collapse: collapse;
     width: 80%;
+    margin-left: 19%;
 }
 
 th,td{
@@ -85,15 +91,28 @@ th,td{
 .button {
     background-color: lightblue;
     color: purple;
-    padding: 8px 24px;
-    transition: all 2s;
+     transition: all 2s;
     text-shadow: ;
     text-align: center;
-
+    border: none;
+    padding: 20px;
+     text-align: center;
+     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+    border-radius: 10px;
+       
 
 }
+    
+
+
+
 
 .button:hover {
     transform: scale(1.1);
 
 }
+
+
